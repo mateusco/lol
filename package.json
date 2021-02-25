@@ -1,0 +1,12 @@
+{
+"name": "lol",
+"version": "1.0.0",
+"description": "project Description",
+
+"scripts": {
+    "start": "serve"
+},
+"dependencies": {
+    "serve":"11.3.2"
+}
+}
