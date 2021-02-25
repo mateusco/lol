@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body style="background-color: gray;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">REGISTRO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+    </nav>
+
+
+    <div class="row">
+        <div class="col-sm">
+
+        </div>
+
+
+
+
+        <div class="col-sm">
+
+            <div class="card">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label"> Informe seu Email</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"> Seu endereço de
+                                e-mail não será compartilhado com ninguém.</div>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="PrimeiraSenha">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirmar Senha</label>
+                            <input type="password" class="form-control" id="SegundaSenha">
+                            <div id="AlertaSenha" class=" text-danger text-center"></div>
+                        </div>
+
+                    </form>
+                    <div class="d-grid gap-1">
+                        <button class="btn btn-dark" onclick="Registrar()">Registrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+
+        </div>
+    </div>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="registro.js" async defer></script>
+
+</body>
+
+</html>
